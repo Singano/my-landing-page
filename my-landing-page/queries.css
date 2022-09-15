@@ -1,0 +1,824 @@
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+
+/* BELOW 544px (Phones) */
+
+@media (max-width: 34em) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.8rem;
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  /*
+  */
+  
+  html {
+    //background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    
+  }
+  header {
+    
+
+  }
+  
+  
+  
+  body {
+    width: 375px;
+    height: 2615px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+    
+    color: #ffffff;
+    
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    
+    //font-weight: 500;
+    //line-height: 1;
+    
+  }
+  
+  
+
+  .container {
+
+    display: flex;
+    flex-direction: columns;
+    width: 375px;
+    height: 2615px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+    background: #ffffff;
+
+    //position: absolute;
+    height: 120px;
+    width: 343px;
+    left: 16px;
+    top: 800px;
+    border-radius: 0px;
+    
+  
+    
+
+    
+  
+
+  }
+
+  .grid-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    display-direction: columns;
+    row-gap: 1.8rem;
+    margin: 1.2rem;
+    padding: 1rem;
+    position: absolute;
+    height: 1695px;
+    width: 375px;
+    left: 0px;
+    top: 800px;
+    border-radius: 0px;
+
+
+    position: relative;
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 936px;
+    text-align: justify;
+    text-justify: inter-word;
+
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    
+    
+    
+    
+  }
+
+  .started {
+    height: 28px;
+    width: 104px;
+    left: 28px;
+    top: 223px;
+    align-items: ;
+    border-radius: nullpx;
+
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #f74780;
+  }
+
+  /*animation grid*/
+  .animation_head {
+
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    //left: 28px;
+    top: 80px;
+    margin: -10px;
+    padding: 16px;
+    border-radius: nullpx;
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: -0px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183f;
+
+  }
+
+  .animation_text {
+
+    height: 78px;
+    width: 286px;
+    left: 28px;
+    top: 121px;
+    margin: -16px;
+    padding: -24px;
+
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869a;
+
+  }
+
+  // Design grid
+  .design_icon {
+  }
+  .design_head {
+    width: 343px;
+    height: 283px;
+    top: 1235px;
+    left: 16px;
+    margin: -10px;
+    padding: 10px;
+    border-radius: 0px;
+
+    height: 25px;
+    width: 68px;
+    left: 28px;
+    top: -80px;
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183F;
+
+  }
+
+  .design_text {
+    height: 78px;
+    width: 286px;
+    left: 28px;
+    top: 121px;
+    margin: -10px;
+    padding: -10px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+    color: #83869A;
+
+  }
+
+  // Photography grid
+  .photography_icon {
+  }
+  .photography_head {
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 1534px;
+    border-radius: 0px;
+  }
+  .photography_text {
+  }
+
+  // Crypto grid
+  .crypto_icon {
+  }
+
+  .crypto_head {
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 1833px;
+    border-radius: 0px;
+  }
+
+  .crypto_text {
+  }
+
+  // Business grid
+  .business_icon {
+  }
+  .business_head {
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 2132px;
+    border-radius: 0px;
+  }
+  .business_text {
+  }
+  /* STYLE GRID -SECTION */
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 48px;
+    width: 343px;
+    left: 16px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  img {
+    height: 301px;
+    width: 327px;
+    left: 24px;
+    top: 433px;
+    border-radius: [object Object]px;
+    position: absolute;
+    height: 253px;
+    width: 253px;
+    left: 61px;
+    top: 457px;
+    border-radius: [object Object]px;
+    position: absolute;
+    width: 238.72px;
+    height: 329.93px;
+    left: 68px;
+    top: 473px;
+
+    background: url(Image.png);
+  }
+
+  .maximize {
+    height: 101px;
+    width: 343px;
+    left: 16px;
+    top: 102px;
+    border-radius: nullpx;
+    //styleName: Heading L;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183f;
+  }
+  .course {
+    position: absolute;
+    height: 78px;
+    width: 343px;
+    left: 16px;
+    top: 229px;
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869a;
+  }
+
+  .check {
+    /*position: absolute;
+    height: 120px;
+    width: 343px;
+    left: 16px;
+    top: 800px;
+    border-radius: 0px;*/
+
+    position: absolute;
+    height: 64px;
+    width: 286px;
+    left: 28px;
+    top: 24px;
+    
+    border-radius: 0px;
+    border-radius: nullpx;
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+
+    /* Heading M */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    /*
+    height: 120px;
+    width: 343px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+
+
+    position: absolute;
+    width: 343px;
+    height: 120px;
+    left: 16px;
+    top: 800px;
+    border-radius: 0px;
+
+    height: 120px;
+    width: 375px;
+    left: 0px;
+    top: 2495px;
+    border-radius: 0px;
+    position: absolute;
+    width: 286px;
+    height: 64px;
+    left: 28px;
+    top: 24px;
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    
+    */
+  }
+
+  .logo_dark {
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: center;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 16px;
+    margin: 48px;
+    padding: 5px;
+    border-radius: 0px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183f;
+  }
+  /* still have to fix the button possition to right */
+  .right {
+    
+    display: flex;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 16px;
+    border-radius: 0px;
+
+    width: 140px;
+    height: 48px;
+    left: 203px;
+    top: 0px;
+    border-radius: 15px;
+
+    width: 92px;
+    height: 28px;
+    left: 24px;
+    top: 9px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+
+
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 48px;
+    width: 140px;
+    left: 390px;
+    //right: 203px;
+    align-items: center;
+    top: 6px;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+
+    /*height: 2615px;
+    width: 375px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 100px;*/
+
+  }
+
+  .leftbtn {
+
+    position: relative;
+    width: 167px;
+    height: 56px;
+    left: 16px;
+    top: 331px;
+    align-items: center;
+    border-radius: 15px;
+    width: 92px;
+    margin: 331px;
+    padding: 0px;
+    height: 26px;
+    left: -320px;
+    top: 15px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    
+  }
+
+  .grid--footer {
+    position: absolute;
+    width: 375px;
+    height: 120px;
+    left: 0px;
+    top: 2495px;
+    border-radius: 0px;
+    //background: #13183f;
+
+    /*
+    display: flex;
+    display-direction: row;
+    
+    height: 2615px;
+    width: 375px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+    
+    
+   
+    */
+  }
+
+  .inside_layout {
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    top: 2531px;
+    left: 16px;
+    border-radius: 0px;
+    //background: #13183f;
+
+    /* background: #13183f;
+    height: 120px;
+    width: 375px;
+    left: 0px;
+    top: 2495px;
+    border-radius: 0px;*/
+  }
+
+  .logo_light {
+    height: 35px;
+    width: 89px;
+    left: 0px;
+    top: 7px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #ffffff;
+  }
+
+  .btn_footer {
+    grid-template-columns: 1fr;
+    color: #13183f;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+
+    position: absolute;
+    height: 48px;
+    width: 343px;
+    left: 16px;
+    top: 16px;
+    border-radius: 100px;
+    //background: #13183f;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    //height: 48px;
+    //width: 140px;
+    //left: 390px;
+    //right: 203px;
+    align-items: center;
+    top: 6px;
+
+    height: 48px;
+    width: 140px;
+    left: 203px;
+    top: 0px;
+    border-radius: 100px;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #ffffff;
+  }
+}

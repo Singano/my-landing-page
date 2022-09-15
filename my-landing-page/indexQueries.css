@@ -1,0 +1,2319 @@
+/* BELOW 1344px (Smaller desktops) 
+
+@media (max-width: 84em) {
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    
+    font-family: "Plus Jakarta Sans";
+    line-height: 1;
+    font-weight: 400;
+    color: #ffffff;
+    
+    height: 1845px;
+    width: 1440px;
+    left: -2521px;
+    top: 1811px;
+    border-radius: 0px;
+    //color: #ffffff;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    
+  }
+  */
+  
+  /* Logo 
+  .logo_dark {
+    position: absolute;
+    width: 7.125rem;
+    height: 2.8125rem;
+    left: 165px;
+    top: 14px;
+    
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #13183f;
+  }
+  */
+  
+  /* Header 
+  header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  
+  .header-text-box {
+    position: absolute;
+    height: 359px;
+    width: 457px;
+    left: 197px;
+    top: 266px;
+    border-radius: 0px;
+  }
+  */
+  
+  
+  /*.hero_image {
+    position: absolute;
+    width: 991.63px;
+    height: 936.92px;
+    left: 784px;
+    top: -147.13px;
+    //top: -182.13px;
+    border-radius: 158.5px;
+  }*/
+  /*
+  .course {
+    position: absolute;
+    height: 84px;
+    left: 0%;
+    right: 2.63%;
+    top: calc(50% - 84px / 2 + 33.5px);
+
+    */
+  
+    /* Body M 
+    
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    */
+  
+    /* 83869A */
+  
+    color: #83869a;
+  }
+  
+  .maximize {
+    position: absolute;
+    height: 143px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 143px / 2 - 108px);
+  
+    /* Heading XL */
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+  
+    /* 13183F */
+  
+    color: #13183f;
+  }
+  
+  // Navbar
+  nav {
+    width: 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #13183f;
+  }
+  
+  li {
+    display: inline;
+    margin: 16px;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  ul:hover {
+    color: #74787c;
+  }
+  /*Button Section */
+  
+  .right {
+    position: absolute;
+    height: 56px;
+    width: 167px;
+    left: 1108px;
+    top: 28px;
+    color: #13183f;
+    border-radius: 100px;
+    background: #666ca3;
+  }
+  
+  .right:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .leftbtn {
+    position: absolute;
+    width: 167px;
+    height: 63px;
+    left: 0%;
+    right: 63.46%;
+    top: 82.45%;
+    bottom: 0%;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    background-color: #ff6f48;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  
+    /* FFFFFF */
+    color: #ffffff;
+  }
+  
+  #container {
+    width: 1440px;
+    margin: 0 auto;
+    height: 888px;
+    left: 0px;
+    top: 837px;
+    border-radius: nullpx;
+    //background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  
+  }
+  
+  /* GRID-CONTAINER*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.8rem;
+    border-radius: 15px;
+    
+    color: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+  
+  /* GRID-CONTAINER */
+  .grid-container {
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 835px;
+  
+    height: 322px;
+    width: 350px;
+    left: 165px;
+    top: 859px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%)
+    border-radius: nullpx;
+    
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    //color: #FFFFFF;
+  }
+  
+  /* GRID-ITEMS STYLE */
+  .grid-items {
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 835px;
+    border-radius: [object Object]px;
+  
+    text-align: center;
+    height: 346px;
+    width: 350px;
+    left: 545px;
+    top: 835px;
+    //background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+  
+    height: 346px;
+    width: 350px;
+    left: 925px;
+    top: 1237px;
+    /* Heading M */
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    color: ffffff;
+    //color: #FFFFFF;
+  
+    
+  
+  }
+  
+  /* STYLE GRID -SECTION */
+  .check {
+    /*
+  height: 322px;
+  left: 165px;
+  top: 859px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;*/
+  
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 9.14%;
+    right: 9.14%;
+    top: calc(50% - 120px / 2 - 41px);
+  
+    /* Heading M */
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    /* FFFFFF */
+  }
+  
+  /* Get Started */
+  
+  /* Animation */
+  .animation_icon {
+    /*height: 56px;
+    left: 577px;
+    width: 56px;
+    top: 835px;
+    border-radius: 0px;
+    
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    
+    color: #FFFFFF;
+    
+    
+    width: 22.568485260009766px;
+    height: 24px;
+    left: 594px;
+    top: 851px;
+    
+    border-radius: 100px;
+    right: 1.2rem;
+    */
+  }
+  
+  .animation_head {
+    position: relative;
+    height: 30px;
+    width: 121px;
+    left: 0px;
+    top: -10px;
+    border-radius: nullpx;
+    margin: 16px;
+    padding: 16px;
+  
+    /* Heading S */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183f;
+  }
+  
+  .animation_text {
+    height: 112px;
+    width: 286px;
+    left: 0px;
+    top: 54px;
+    border-radius: nullpx;
+  
+    margin: 12px;
+    padding: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+  
+    /* Body M */
+  
+    /*styleName: Body M;*/
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869a;
+  }
+  
+  /*GETSTARTED STYLES IN grid-ITEMS */
+  .started {
+    width: 104px;
+    height: 28px;
+    right: 10px;
+    left: 0px;
+    top: 190px;
+    margin: 24px;
+  
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0px;
+    text-align: left;
+  
+    color: #ffa7c3;
+  }
+  
+  /*FOOTER SECTION */
+  
+  .grid--footer {
+    position: absolute;
+    height: 120px;
+  width: 1440px;
+  left: 0px;
+  top: 1724px;
+  border-radius: 0px;
+  
+    background: #13183f;
+  }
+  
+  .logo_light {
+    position: absolute;
+    width: 114px;
+    height: 45px;
+    left: 165px;
+    top: 29px;
+    border-radius: nullpx;
+  
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+  background: #13183F;
+  
+  }
+  
+  .inside_layout {
+  
+    width: 1110px;
+    height: 56px;
+    left: 165px;
+    top: 1756px;
+    border-radius: 0px;
+  }
+  
+  .btn_footer {
+  
+    position: absolute;
+    height: 56px;
+    width: 167px;
+    left: 1108px;
+    top: 28px;
+    color: #13183f;
+    border-radius: 100px;
+  
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+
+.design_head {
+  //position: relative:
+  height: 30px;
+  width: 81px;
+  left: 0px;
+  top: -10px;
+  margin: 16px;
+  padding: 16px;
+  border-radius: nullpx;
+
+  /*styleName: Heading S;*/
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #13183f;
+}
+
+.disign_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Photography */
+
+.photography_icon {
+  height: 56px;
+  width: 56px;
+  left: 197px;
+  top: 1237px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: 0px;
+}
+
+.photography_head {
+  height: 30px;
+  width: 155px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.photography_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Crypto */
+
+.crypto_icon {
+  height: 56px;
+  width: 56px;
+  left: 577px;
+  top: 1237px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.crypto_head {
+  height: 30px;
+  width: 84px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.crypto_text {
+  height: 112px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+.business_icon {
+  
+  width: 56px;
+  height: 56px;
+  left: 957px;
+  top: 1237px;
+  border-radius: 0px;
+
+
+
+}
+
+.business_head {
+  height: 30px;
+  width: 104px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.business_text {
+
+  width: 286px;
+  height: 112px;
+  left: 0px;
+  top: 54px;
+  border-radius: nullpx;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #83869a;
+}
+
+  
+}
+
+
+/* BELOW 1200px (Landscape Tablets) */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .grid-items {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo_dark {
+    position: absolute;
+    height: 35px;
+    width: 89px;
+    left: 0px;
+    top: 7px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #13183f;
+
+    /* retangle layout logo and righttop botton */
+    //position: absolute;
+    height: 48px;
+    width: 689px;
+    left: 39px;
+    top: 24px;
+    border-radius: 0px;
+  }
+
+  .right {
+    
+    position: absolute;
+    height: 28px;
+    width: 92px;
+    left: 24px;
+    top: 9px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+
+    height: 48px;
+    width: 140px;
+    left: 549px;
+    top: 0px;
+    border-radius: 0px;
+
+    /* retangle layout logo and righttop botton */
+    height: 48px;
+    width: 689px;
+    left: 39px;
+    top: 24px;
+    border-radius: 100px;
+  }
+
+  #container {
+    height: 999px;
+    width: 768px;
+    left: 0px;
+    top: 641px;
+    border-radius: 0px;
+
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+
+
+}
+
+/* BELOW 944px (Tablets) */
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .grid-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo_dark {
+    position: absolute;
+    height: 35px;
+    width: 89px;
+    left: 0px;
+    top: 7px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #13183f;
+
+    /* retangle layout logo and righttop botton */
+    //position: absolute;
+    height: 48px;
+    width: 689px;
+    left: 39px;
+    top: 24px;
+    border-radius: 0px;
+  }
+
+  .right {
+    
+    position: absolute;
+    height: 28px;
+    width: 92px;
+    left: 24px;
+    top: 9px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+
+    height: 48px;
+    width: 140px;
+    left: 549px;
+    top: 0px;
+    border-radius: 0px;
+
+    /* retangle layout logo and righttop botton */
+    height: 48px;
+    width: 689px;
+    left: 39px;
+    top: 24px;
+    border-radius: 100px;
+  }
+
+  #container {
+    height: 999px;
+    width: 768px;
+    left: 0px;
+    top: 641px;
+    border-radius: 0px;
+
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+  
+}
+
+/* BELOW 704px (Smaller tablets) */
+
+@media (max-width: 44em) {
+  .grid-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ 
+  body {
+  
+    font-family: "Plus Jakarta Sans";
+    line-height: 1;
+    font-weight: 400;
+    color: #ffffff;
+  
+  }
+  
+  /* Logo */
+  .logo_dark {
+    position: absolute;
+    width: 7.125rem;
+    height: 2.8125rem;
+    left: 165px;
+    top: 14px;
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #13183f;
+  }
+  
+  /* Header */
+  header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  
+  .header-text-box {
+    position: absolute;
+    height: 359px;
+    width: 457px;
+    left: 197px;
+    top: 266px;
+    border-radius: 0px;
+  }
+  
+  
+  .hero_image {
+    position: absolute;
+    width: 991.63px;
+    height: 936.92px;
+    left: 784px;
+    top: -147.13px;
+    //top: -182.13px;
+    border-radius: 158.5px;
+  }
+  
+  .course {
+    position: absolute;
+    height: 84px;
+    left: 0%;
+    right: 2.63%;
+    top: calc(50% - 84px / 2 + 33.5px);
+  
+    /* Body M */
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+  
+    /* 83869A */
+  
+    color: #83869a;
+  }
+  
+  .maximize {
+    position: absolute;
+    height: 143px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 143px / 2 - 108px);
+  
+    /* Heading XL */
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+  
+    /* 13183F */
+  
+    color: #13183f;
+  }
+  
+  // Navbar
+  nav {
+    width: 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #13183f;
+  }
+  
+  li {
+    display: inline;
+    margin: 16px;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  ul:hover {
+    color: #74787c;
+  }
+  /*Button Section */
+  
+  .right {
+    position: absolute;
+    height: 56px;
+    width: 167px;
+    left: 1108px;
+    top: 28px;
+    color: #13183f;
+    border-radius: 100px;
+    background: #666ca3;
+  }
+  
+  .right:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .leftbtn {
+    position: absolute;
+    width: 167px;
+    height: 63px;
+    left: 0%;
+    right: 63.46%;
+    top: 82.45%;
+    bottom: 0%;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    background-color: #ff6f48;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  
+    /* FFFFFF */
+    color: #ffffff;
+  }
+  
+  #container {
+    width: 1440px;
+    margin: 0 auto;
+    height: 888px;
+    left: 0px;
+    top: 837px;
+    border-radius: nullpx;
+    //background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  
+  }
+  
+  /* GRID-CONTAINER*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.8rem;
+    border-radius: 15px;
+    
+    color: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+  
+  /* GRID-CONTAINER */
+  .grid-container {
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 835px;
+  
+    height: 322px;
+    width: 350px;
+    left: 165px;
+    top: 859px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%)
+    border-radius: nullpx;
+    
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    //color: #FFFFFF;
+  }
+  
+  /* GRID-ITEMS STYLE */
+  .grid-items {
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 835px;
+    border-radius: [object Object]px;
+  
+    text-align: center;
+    height: 346px;
+    width: 350px;
+    left: 545px;
+    top: 835px;
+    //background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+  
+    height: 346px;
+    width: 350px;
+    left: 925px;
+    top: 1237px;
+    /* Heading M */
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    color: ffffff;
+    //color: #FFFFFF;
+  
+    
+  
+  }
+  
+  /* STYLE GRID -SECTION */
+  .check {
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 9.14%;
+    right: 9.14%;
+    top: calc(50% - 120px / 2 - 41px);
+  
+    /* Heading M */
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    /* FFFFFF */
+  }
+  
+  /* Get Started */
+  
+  /* Animation */
+  .animation_icon {
+    /*height: 56px;
+    left: 577px;
+    width: 56px;
+    top: 835px;
+    border-radius: 0px;
+    
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    
+    color: #FFFFFF;
+    
+    
+    width: 22.568485260009766px;
+    height: 24px;
+    left: 594px;
+    top: 851px;
+    
+    border-radius: 100px;
+    right: 1.2rem;
+    */
+  }
+  
+  .animation_head {
+    position: relative;
+    height: 30px;
+    width: 121px;
+    left: 0px;
+    top: -10px;
+    border-radius: nullpx;
+    margin: 16px;
+    padding: 16px;
+  
+    /* Heading S */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183f;
+  }
+  
+  .animation_text {
+    height: 112px;
+    width: 286px;
+    left: 0px;
+    top: 54px;
+    border-radius: nullpx;
+  
+    margin: 12px;
+    padding: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+  
+    /* Body M */
+  
+    /*styleName: Body M;*/
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869a;
+  }
+  
+  /*GETSTARTED STYLES IN grid-ITEMS */
+  .started {
+    width: 104px;
+    height: 28px;
+    right: 10px;
+    left: 0px;
+    top: 190px;
+    margin: 24px;
+  
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: nullpx;
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0px;
+    text-align: left;
+  
+    color: #ffa7c3;
+  }
+  
+  /*FOOTER SECTION */
+  
+  .grid--footer {
+    position: absolute;
+    height: 120px;
+  width: 1440px;
+  left: 0px;
+  top: 1724px;
+  border-radius: 0px;
+  
+    background: #13183f;
+  }
+  
+  .logo_light {
+    position: absolute;
+    width: 114px;
+    height: 45px;
+    left: 165px;
+    top: 29px;
+    border-radius: nullpx;
+  
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+  background: #13183F;
+  
+  }
+  
+  .inside_layout {
+  
+    width: 1110px;
+    height: 56px;
+    left: 165px;
+    top: 1756px;
+    border-radius: 0px;
+  }
+  
+  .btn_footer {
+  
+    position: absolute;
+    height: 56px;
+    width: 167px;
+    left: 1108px;
+    top: 28px;
+    color: #13183f;
+    border-radius: 100px;
+  
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+
+.design_head {
+  //position: relative:
+  height: 30px;
+  width: 81px;
+  left: 0px;
+  top: -10px;
+  margin: 16px;
+  padding: 16px;
+  border-radius: nullpx;
+
+  /*styleName: Heading S;*/
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #13183f;
+}
+
+.disign_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Photography */
+
+.photography_icon {
+  height: 56px;
+  width: 56px;
+  left: 197px;
+  top: 1237px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: 0px;
+}
+
+.photography_head {
+  height: 30px;
+  width: 155px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.photography_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Crypto */
+
+.crypto_icon {
+  height: 56px;
+  width: 56px;
+  left: 577px;
+  top: 1237px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.crypto_head {
+  height: 30px;
+  width: 84px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.crypto_text {
+  height: 112px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+.business_icon {
+  
+  width: 56px;
+  height: 56px;
+  left: 957px;
+  top: 1237px;
+  border-radius: 0px;
+
+
+
+}
+
+.business_head {
+  height: 30px;
+  width: 104px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.business_text {
+
+  width: 286px;
+  height: 112px;
+  left: 0px;
+  top: 54px;
+  border-radius: nullpx;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #83869a;
+   
+ }
+}
+
+
+/* BELOW 544px (Phones) */
+@media (max-width: 34em) {
+   /*.grid-items {
+      grid-template-columns: repeat(1, 1fr);
+   }*/
+   body {
+    //position: relative;
+    height: 2615px;
+    width: 375px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+
+  
+    font-family: "Plus Jakarta Sans";
+    line-height: 1;
+    font-weight: 400;
+    color: #ffffff;
+    
+  
+  }
+  
+  /* Logo */
+  .logo_dark {
+    width: 89px;
+    height: 35px;
+    left: 0px;
+    top: 6px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183F;
+
+/*logo and rightbtn container 
+*/
+    position: absolute;
+    height: 48px;
+    width: 343px;
+    left: 16px;
+    top: 16px;
+    border-radius: 0px;
+
+  }
+  
+  /* Header */
+  header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  
+  .header-text-box {
+    position: absolute;
+    height: 101px;
+    width: 343px;
+    left: 16px;
+    top: 102px;
+    border-radius: nullpx;
+
+//styleName: Heading L;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    height: 78px;
+    width: 343px;
+    left: 16px;
+    top: 229px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #83869A;
+
+/* button style*/
+    height: 56px;
+    width: 167px;
+    left: 16px;
+    top: 331px;
+    border-radius: 0px;
+
+
+  }
+  
+  
+  .hero_image {
+      position: absolute;
+    /*
+    height: 301px;
+      width: 327px;
+      left: 24px;
+      top: 433px;
+      border-radius: [object Object]px;
+      
+      height: 301px;
+      width: 327px;
+      left: 24px;
+      top: 433px;
+      border-radius: [object Object]px;
+      
+      
+      height: 253px;
+      width: 253px;
+      left: 61px;
+      top: 457px;
+      border-radius: [object Object]px;
+      */
+
+
+    
+  }
+  
+  .course {
+    position: absolute;
+    height: 78px;
+    width: 343px;
+    left: 16px;
+    top: 229px;
+    border-radius: nullpx;
+
+  
+    /* Body M */
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869A;
+
+  }
+  
+  .maximize {
+    position: absolute;
+    height: 101px;
+    width: 343px;
+    left: 16px;
+    top: 102px;
+    border-radius: nullpx;
+
+  
+    //styleName: Heading L;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  
+    color: #13183f;
+  }  
+  
+  // Navbar
+  nav {
+    height: 35px;
+    width: 89px;
+    left: 0px;
+    top: 6px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183F;
+
+
+  }
+  
+  li {
+    display: inline;
+    margin: 16px;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  ul:hover {
+    color: #74787c;
+
+  }
+  /*Button Section */
+  
+  .right {
+    position: absolute;
+    height: 48px;
+    width: 140px;
+    left: 203px;
+    top: 0px;
+    border-radius: 100px;
+
+    height: 28px;
+    width: 92px;
+    left: 24px;
+    top: 9px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+
+
+
+    /*logo and rightbtn container 
+    */
+//position: absolute;
+   height: 48px;
+   width: 343px;
+   left: 16px;
+   top: 16px;
+   border-radius: 0px;
+
+  }
+  
+  .right:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .leftbtn {
+    position: absolute;
+    //width: 167px;
+    width: 92px;
+    //height: 63px;
+    height: 26px;
+    left: 0%;
+    right: 63.46%;
+    top: 82.45%;
+    bottom: 0%;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    background-color: #ff6f48;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+
+
+    
+    position: absolute;
+    height: 26px;
+    width: 92px;
+    left: 38px;
+    right: 3.9rem;
+    top: 15px;
+    margin: 1rem;
+    padding-bottom: 1rem;
+
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;*/
+/* FFFFFF */
+
+    color: #FFFFFF;
+
+  
+  }
+  
+.container {
+    /*width: 375px;
+    height: 100vh;    
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+
+    position: absolute;
+    height: 26px;
+    width: 92px;
+    left: 38px;
+    top: 15px;
+    margin: 1rem;
+    padding-bottom: 1rem;*/
+
+//background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: nullpx;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+/* FFFFFF */
+
+    color: #FFFFFF;
+
+
+    //background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  
+  }
+  
+  /* GRID-CONTAINER*/
+  .grid-container {
+    
+    
+    //color: #ffffff;
+    //box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    //background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+  
+  /* GRID-CONTAINER */
+  .grid-container {
+    height: 1615px;
+  width: 343px;
+  left: 16px;
+  top: 800px;
+  border-radius: 0px;
+
+    /*width: 375px;
+    height: 2615px;
+    left: 1958px;
+    top: 1808px;
+    border-radius: 0px;
+
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 835px;
+  
+    height: 322px;
+    width: 350px;
+    left: 165px;
+    top: 859px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%)
+    border-radius: nullpx;
+
+
+    position: absolute;
+    height: 1695px;
+    width: 375px;
+    left: 0px;
+    top: 800px;
+    border-radius: 0px;
+    */
+
+    
+  
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    //color: #FFFFFF;
+  }
+  
+  /* GRID-ITEMS STYLE */
+      
+  .grid-items {
+
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    
+    row-gap: 2.8rem;
+
+    //border-radius: 15px;
+
+    position: absolute;
+    height: 1615px;
+    width: 343px;
+    left: 16px;
+    top: 800px;
+    border-radius: 0px;
+
+    /*position: absolute;
+    width: 343px;
+    height: 1615px;
+    left: 16px;
+    top: 800px;
+    border-radius: 0px;
+
+    width: 375px;
+    height: 1695px;
+    left: 0px;
+    top: 800px;
+    border-radius: 0px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+    //animation grid
+    position: absolute;
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 936px;
+    border-radius: 0px;
+
+    // Design grid 
+    width: 343px;
+    height: 283px;
+    top: 1235px;
+    left: 16px;
+    border-radius: 0px;
+
+    // Photography grid
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 1534px;
+    border-radius: 0px;
+
+// Crypto grid 
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 1833px;
+    border-radius: 0px;
+
+// Business grid
+    height: 283px;
+    width: 343px;
+    left: 16px;
+    top: 2132px;
+    border-radius: 0px;
+    */
+  
+  }
+  
+  /* STYLE GRID -SECTION */
+  .check {
+    /*position: absolute;
+    width: 343px;
+    height: 120px;
+    top: 800px;
+    left: 16px;
+    border-radius: 0px;
+
+    width: 286px;
+    height: 64px;
+    top: 24px;
+    left: 28px;
+    border-radius: nullpx;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+*/
+
+
+
+
+
+
+    /*
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 9.14%;
+    right: 9.14%;
+    top: calc(50% - 120px / 2 - 41px);
+  
+    /* Heading M *
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    /* FFFFFF */
+  }
+  
+  /* Get Started */
+  
+  /* Animation */
+  .animation_icon {
+   /* height: 56px;
+width: 56px;
+left: 28px;
+top: 0px;
+border-radius: 0px;
+
+height: 24px;
+width: 22.568485260009766px;
+left: 45px;
+top: 16px;
+border-radius: 0px;
+*/
+
+  }
+  
+  .animation_head {
+    position: relative;
+    width: 101px;
+    height: 25px;
+    left: 28px;
+    top: 80px;
+    border-radius: nullpx;
+
+    margin: 16px;
+    padding: 16px;
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #13183f;
+  }
+  
+  .animation_text {
+    height: 78px;
+    width: 286px;
+    left: 28px;
+    top: 121px;
+    border-radius: nullpx;
+
+    margin: 12px;
+    padding: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+  
+    /* Body M */
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #83869a;
+
+  }
+
+
+.design_head {
+  //position: relative:
+  hheight: 25px;
+  width: 68px;
+  left: 28px;
+  top: 80px;
+  margin: 12px;
+  padding: 12px;
+  border-radius: nullpx;
+
+  /*styleName: Heading S;*/
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+
+
+  color: #13183f;
+}
+
+.disign_text {
+  height: 78px;
+  width: 286px;
+  left: 28px;
+  top: 121px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Photography */
+
+.photography_icon {
+  width: 56px;
+  height: 56px;
+  left: 197px;
+  top: 1237px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: 0px;
+}
+
+.photography_head {
+  height: 30px;
+  width: 155px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.photography_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Crypto */
+
+.crypto_icon {
+  height: 56px;
+  width: 56px;
+  left: 577px;
+  top: 1237px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.crypto_head {
+  height: 30px;
+  width: 84px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.crypto_text {
+  height: 112px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+.business_icon {
+  
+  width: 56px;
+  height: 56px;
+  left: 957px;
+  top: 1237px;
+  border-radius: 0px;
+
+
+
+}
+
+.business_head {
+  height: 30px;
+  width: 104px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.business_text {
+
+  width: 286px;
+  height: 112px;
+  left: 0px;
+  top: 54px;
+  border-radius: nullpx;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #83869a;
+   
+ }
+ 
+ /*GETSTARTED STYLES IN grid-ITEMS */
+ .started {
+  height: 28px;
+  width: 104px;
+  left: 28px;
+  top: 223px;
+  border-radius: nullpx;
+   margin: 24px;
+   
+   text-align: justify;
+   text-justify: inter-word;
+   border-radius: nullpx;
+   
+   font-family: Plus Jakarta Sans;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: 0px;
+   text-align: left;
+   color: #F74780;
+
+  
+  }
+  
+  /*FOOTER SECTION */
+  
+  .grid--footer {
+    position: absolute;
+    height: 120px;
+    width: 375px;
+    left: 0px;
+    top: 2495px;
+    border-radius: 0px;
+    background: #13183f;
+
+
+  }
+  
+  .logo_light {
+    position: absolute;
+    height: 35px;
+    width: 89px;
+    left: 0px;
+    top: 7px;
+    border-radius: nullpx;
+
+    
+    ffont-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    background: #13183F;
+    
+  }
+  
+  .inside_layout {
+    position: absolute;
+    height: 48px;
+    width: 343px;
+    left: 16px;
+    top: 2531px;
+    border-radius: 0px;
+
+  }
+  
+  .btn_footer {
+    
+    position: absolute;
+    width: 140px;
+    height: 48px;
+    left: 203px;
+    top: 0px;
+    color: #13183f;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    
+    position: absolute;
+    height: 28px;
+    left: 17.14%;
+    right: 17.14%;
+    top: calc(50% - 28px/2 - 1px);
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+
+  }
+  
+}
+  

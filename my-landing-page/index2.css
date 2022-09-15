@@ -1,0 +1,232 @@
+/* DESIGN GRID STYLE */
+
+/*.design_icon {
+
+    height: 56px;
+width: 56px;
+left: 957px;
+top: 835px;
+border-radius: 0px;
+
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+
+    height: 18px;
+    width: 18px;
+    left: 976px;
+    top: 854px;
+    border-radius: 100px;
+
+    color: #FFFFFF;
+
+
+    
+
+}*/
+
+.design_head {
+  //position: relative:
+  height: 30px;
+  width: 81px;
+  left: 0px;
+  top: -10px;
+  margin: 16px;
+  padding: 16px;
+  border-radius: nullpx;
+
+  /*styleName: Heading S;*/
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #13183f;
+}
+
+.disign_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Photography */
+
+.photography_icon {
+  height: 56px;
+  width: 56px;
+  left: 197px;
+  top: 1237px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: 0px;
+}
+
+.photography_head {
+  height: 30px;
+  width: 155px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.photography_text {
+  height: 84px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+/* Crypto */
+
+.crypto_icon {
+  height: 56px;
+  width: 56px;
+  left: 577px;
+  top: 1237px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.crypto_head {
+  height: 30px;
+  width: 84px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.crypto_text {
+  height: 112px;
+  width: 286px;
+  left: 0px;
+  top: 54px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+.business_icon {
+  
+  width: 56px;
+  height: 56px;
+  left: 957px;
+  top: 1237px;
+  border-radius: 0px;
+
+
+
+}
+
+.business_head {
+  height: 30px;
+  width: 104px;
+  left: 0px;
+  top: 0px;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Heading S;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.business_text {
+
+  width: 286px;
+  height: 112px;
+  left: 0px;
+  top: 54px;
+  border-radius: nullpx;
+  margin: 12px;
+  padding: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: nullpx;
+
+  //styleName: Body M;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #83869a;
+}
